@@ -1,0 +1,68 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Games")
+local PhantomForcesWindow69 = Library:NewWindow("Credits")
+local KillingCheats = PhantomForcesWindow:NewSection("Games")
+local KillingCheats999 = PhantomForcesWindow69:NewSection("Weszekluzek on YT")
+
+KillingCheats:CreateButton("Hotel Elephant", function()
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Hotel Elephant (Beta)")
+local KillingCheats = PhantomForcesWindow:NewSection("Autofarm")
+local KillingCheats1 = PhantomForcesWindow:NewSection("Teleport to place")
+local KillingCheats3 = PhantomForcesWindow:NewSection("Give Rank")
+
+KillingCheats:CreateToggle("Drop some money", function(value)
+_G.Toggle = value
+
+while _G.Toggle do
+wait()
+game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 999999999, "Cash")
+end
+end)
+
+KillingCheats1:CreateButton("Clothing Shop", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(341.251678, 11.6999979, -224.795959, -0.999924004, 4.51236417e-08, 0.0123273479, 4.56453009e-08, 1, 4.2035964e-08, -0.0123273479, 4.25954561e-08, -0.999924004)
+end)
+end)
+
+KillingCheats3:CreateButton("Manager", function()
+local args = {
+    [1] = "Bright green"
+}
+
+game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
+end)
+
+KillingCheats3:CreateButton("Shop assistant", function()
+local args = {
+    [1] = "Bright blue"
+}
+
+game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
+end)
+
+KillingCheats3:CreateButton("Concierge", function()
+local args = {
+    [1] = "Burgundy"
+}
+
+game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
+end)
+
+KillingCheats3:CreateButton("Waiter", function()
+local args = {
+    [1] = "Bright red"
+}
+
+game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
+end)
+
+KillingCheats3:CreateButton("Hotel Guest", function()
+local args = {
+    [1] = "Bright yellow"
+}
+
+game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
+end)
